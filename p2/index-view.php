@@ -73,13 +73,13 @@
     <?php if (isset($outcome)) { ?>
     <h2>Results</h2>
     <?php if ($outcome == 'over') { ?>
-    You went over 21 and lost
+    You went over 21 and lost.
 
     <?php } elseif ($outcome == 'blackjack') { ?>
     Blackjack! You won
 
     <?php } else { ?>
-    You were under.
+    You’re under.
     <?php } ?>
     <?php }?>
 
